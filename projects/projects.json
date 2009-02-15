@@ -61,5 +61,29 @@
             "hub": "plls",
             "desc": "A crude iTunes plalist creator."
         }
+    },
+    "ruby": {
+        "auto-sanitize": {
+            "hub": "auto_sanitize",
+            "desc": "Automatically run all user input through the built in rails sanitize function to protect against XSS attacks."
+        },
+        "script-gem": {
+            "hub": "script_gem",
+            "desc": "Vendored gems for Rails applications. <em>Probably Obsolete</em>."
+        },
+        "tempdir": {
+            "hub": "tempdir",
+            "desc": "Tempfile like behaviour for directories."
+        },
+        "grip": {
+            "hub": "grip",
+            "desc": "Gem Rails Plugins. <em>Probably Obsolete</em>."
+        }
+    },
+    "erlang": {
+        "trn": {
+            "hub": "trn",
+            "desc": "Erlang game server powered by Mochiweb."
+        }
     }
 }

@@ -91,11 +91,11 @@
                 </ol>
             </div>
             <div class="bd">
-                {% for section, projects in sections.iteritems() %}
+                {% for section, projects in sections.iteritems() -%}
                 <div id="{{ section }}" class="section">
                     <h1>{{ section }}</h1>
 
-                    {% for name, project in projects.iteritems() %}
+                    {%- for name, project in projects.iteritems() %}
                     <div id="{{ project.hub }}" class="project">
                         <h2>{{ name }}</h2>
                         <div>
@@ -104,17 +104,17 @@
                         <div>
                             Code at <a href="http://github.com/nshah/{{ project.hub }}/tree/master">GitHub</a>.
 
-                            {% if project.url %}
+                            {%- if project.url %}
                             <br>
                             Documentation <a href="{{ project.url }}">here</a>.
-                            {% endif %}
+                            {%- endif %}
 
                             <br>
                             <a href="http://github.com/nshah/{{ project.hub }}/zipball/master"><img height="60px" width="60px" src="http://github.com/images/modules/download/zip.png" alt="Download As Zip" title="Download As Zip"></a>
                             <a href="http://github.com/nshah/{{ project.hub }}/tarball/master"><img height="60px" width="60px" src="http://github.com/images/modules/download/tar.png" alt="Download As Tar" title="Download As Tar"></a>
                         </div>
                     </div>
-                    {% endfor %}
+                    {%- endfor %}
                 </div>
                 {% endfor %}
             </div>
