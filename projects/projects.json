@@ -1,0 +1,65 @@
+{
+    "python": {
+        "oauth": {
+            "hub": "python-oauth",
+            "desc": "Python OAuth library for generating and validating signatures.",
+            "url": "http://code.daaku.org/python-oauth/"
+        },
+        "make-request": {
+            "hub": "python-make-request",
+            "desc": "Python library for making form encoded HTTP requests."
+        },
+        "memoize": {
+            "hub": "memoize",
+            "desc": "Python memoize descriptor."
+        },
+        "colorized-logger": {
+            "hub": "colorized_logger",
+            "desc": "Colorized debug logging."
+        }
+    },
+    "django": {
+        "oauth-consumer": {
+            "hub": "django-oauth-consumer",
+            "desc": "Django app for building OAuth enabled applications."
+        },
+        "blog-entries": {
+            "hub": "django-blog-entries",
+            "desc": "Django blog application."
+        },
+        "rte-widgets": {
+            "hub": "django-rte-widgets",
+            "desc": "Rich Text Widgets for use with Django."
+        },
+        "translatable-model": {
+            "hub": "django-translatable-model",
+            "desc": "Helpers for working with localized models."
+        },
+        "jinja": {
+            "hub": "django-jinja",
+            "desc": "Tiny jinja2 helpers for use with Django."
+        },
+        "sqlalchemy": {
+            "hub": "django-sqlalchemy",
+            "desc": "Tiny sqlalchemy helpers for use with Django."
+        },
+        "flatpage-widget": {
+            "hub": "django-flatpage-widget",
+            "desc": "Django app to allow a setting to define the Widget used for editing Flat Pages."
+        },
+        "comment-sanitize": {
+            "hub": "django-comment-sanitize",
+            "desc": "Django app when installed will sanitize comment bodies using the html5lib sanitizing parser."
+        }
+    },
+    "tools": {
+        "gmeta": {
+            "hub": "gmeta",
+            "desc": "Git post-checkout/pre-commit hooks for including file metadata in the repository."
+        },
+        "plls": {
+            "hub": "plls",
+            "desc": "A crude iTunes plalist creator."
+        }
+    }
+}

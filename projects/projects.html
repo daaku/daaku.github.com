@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Projects</title>
+        <meta name="keywords" content="Naitik Shah, naitik, shah, code, git, python, projects">
+        <meta name="description" content="Naitik Shah's Projects.">
+
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?3.0.0pr2/build/cssfonts/fonts-min.css&3.0.0pr2/build/cssreset/reset-min.css&3.0.0pr2/build/cssgrids/grids-min.css&3.0.0pr2/build/cssbase/base-min.css">
+        <style type="text/css">
+            #document {
+                font-family: serif;
+            }
+            #document a {
+                color: #4183C4;
+            }
+            #document .hd {
+                margin-bottom: 3em;
+            }
+            #document .section {
+                margin-bottom: 3em;
+            }
+            #document .section h1, #document .project h2 {
+                padding: 0.5em;
+            }
+            #document .section:target h1, #document .project:target h2 {
+                background-color: #FBE54E;
+            }
+            #document .project {
+                position: relative;
+                padding: 0.5em 1.5em 3em 1.5em;
+                margin-left: 2em;
+                border: 1px solid #fff;
+                border-bottom: 1px dotted #aaa;
+            }
+            #document .project h2 {
+                margin-top: 0;
+            }
+            #document .project:hover {
+                border: 1px solid #D8D8D8;
+                background-color: #F0F0F0;
+            }
+            #document .project > div:nth-child(2) {
+                margin-left: 3em;
+                margin-right: 12em;
+            }
+            #document .project > div:last-child {
+                position: absolute;
+                right: 0;
+                top: 0;
+                font-size: 92%;
+                background-color: #fff;
+                padding: 0.6em 0.5em 1em 1em;
+                width: 12em;
+            }
+            #table-of-contents {
+                margin: 2em 0 0 0;
+                line-height: 1.4;
+                font-size: 108%;
+            }
+            #table-of-contents ol {
+                margin: 0 1em;
+            }
+            #table-of-contents li {
+                list-style-type: none;
+            }
+            #table-of-contents li a {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="document" class="yui-d1">
+            <div class="hd">
+                <a style="float: right;" href="http://daaku.org/">me</a>
+                <h1>Projects</h1>
+                <div class="info">
+                    Random bits of code.
+                </div>
+                <ol id="table-of-contents">
+                    {% for section, projects in sections.iteritems() -%}
+                    <li>
+                        <strong><a href="#{{ section }}">{{ section }}</a></strong>
+                        <ol>
+                        {%- for name, project in projects.iteritems() %}
+                            <li><a href="#{{ project.hub }}">{{ name }}</a></li>
+                        {%- endfor %}
+                        </ol>
+                    </li>
+                    {% endfor %}
+                </ol>
+            </div>
+            <div class="bd">
+                {% for section, projects in sections.iteritems() %}
+                <div id="{{ section }}" class="section">
+                    <h1>{{ section }}</h1>
+
+                    {% for name, project in projects.iteritems() %}
+                    <div id="{{ project.hub }}" class="project">
+                        <h2>{{ name }}</h2>
+                        <div>
+                            {{ project.desc }}
+                        </div>
+                        <div>
+                            Code at <a href="http://github.com/nshah/{{ project.hub }}/tree/master">GitHub</a>.
+
+                            {% if project.url %}
+                            <br>
+                            Documentation <a href="{{ project.url }}">here</a>.
+                            {% endif %}
+
+                            <br>
+                            <a href="http://github.com/nshah/{{ project.hub }}/zipball/master"><img height="60px" width="60px" src="http://github.com/images/modules/download/zip.png" alt="Download As Zip" title="Download As Zip"></a>
+                            <a href="http://github.com/nshah/{{ project.hub }}/tarball/master"><img height="60px" width="60px" src="http://github.com/images/modules/download/tar.png" alt="Download As Tar" title="Download As Tar"></a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>
