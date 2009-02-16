@@ -50,6 +50,10 @@
         "comment-sanitize": {
             "hub": "django-comment-sanitize",
             "desc": "Django app when installed will sanitize comment bodies using the html5lib sanitizing parser."
+        },
+        "admin-manager-monkey": {
+            "hub": "django-admin-manager-monkey",
+            "desc": "Monkey patch Django's Admin system to allow specifying a custom manager instead of forcing _default_manager."
         }
     },
     "tools": {
