@@ -16,6 +16,11 @@
         "colorized-logger": {
             "hub": "colorized_logger",
             "desc": "Colorized debug logging."
+        },
+        "urlencoding": {
+            "hub": "python-urlencoding",
+            "desc": "URL Encoding Helpers",
+            "url": "http://code.daaku.org/python-urlencoding/"
         }
     },
     "django": {
