@@ -30,15 +30,18 @@
         },
         "blog-entries": {
             "hub": "django-blog-entries",
-            "desc": "Django blog application."
+            "desc": "Django blog application.",
+            "url": "http://github.com/nshah/django-blog-entries/tree/master#readme"
         },
         "rte-widgets": {
             "hub": "django-rte-widgets",
-            "desc": "Rich Text Widgets for use with Django."
+            "desc": "Rich Text Widgets for use with Django.",
+            "url": "http://github.com/nshah/django-rte-widgets/tree/master#readme"
         },
         "translatable-model": {
             "hub": "django-translatable-model",
-            "desc": "Helpers for working with localized models."
+            "desc": "Helpers for working with localized models.",
+            "url": "http://github.com/nshah/django-translatable-model/tree/master#readme"
         },
         "jinja": {
             "hub": "django-jinja",
@@ -50,21 +53,25 @@
         },
         "flatpage-widget": {
             "hub": "django-flatpage-widget",
-            "desc": "Django app to allow a setting to define the Widget used for editing Flat Pages."
+            "desc": "Django app to allow a setting to define the Widget used for editing Flat Pages.",
+            "url": "http://github.com/nshah/django-flatpage-widget/tree/master#readme"
         },
         "comment-sanitize": {
             "hub": "django-comment-sanitize",
-            "desc": "Django app when installed will sanitize comment bodies using the html5lib sanitizing parser."
+            "desc": "Django app when installed will sanitize comment bodies using the html5lib sanitizing parser.",
+            "url": "http://github.com/nshah/django-comment-sanitize/tree/master#readme"
         },
         "admin-manager-monkey": {
             "hub": "django-admin-manager-monkey",
-            "desc": "Monkey patch Django's Admin system to allow specifying a custom manager instead of forcing _default_manager."
+            "desc": "Monkey patch Django's Admin system to allow specifying a custom manager instead of forcing _default_manager.",
+            "url": "http://github.com/nshah/django-admin-manager-monkey/tree/master#readme"
         }
     },
     "tools": {
         "gmeta": {
             "hub": "gmeta",
-            "desc": "Git post-checkout/pre-commit hooks for including file metadata in the repository."
+            "desc": "Git post-checkout/pre-commit hooks for including file metadata in the repository.",
+            "url": "http://github.com/nshah/gmeta/tree/master#readme"
         },
         "plls": {
             "hub": "plls",
@@ -74,19 +81,23 @@
     "ruby": {
         "auto-sanitize": {
             "hub": "auto_sanitize",
-            "desc": "Automatically run all user input through the built in rails sanitize function to protect against XSS attacks."
+            "desc": "Automatically run all user input through the built in rails sanitize function to protect against XSS attacks.",
+            "url": "http://github.com/nshah/auto_sanitize/tree/master#readme"
         },
         "script-gem": {
             "hub": "script_gem",
-            "desc": "Vendored gems for Rails applications. <em>Probably Obsolete</em>."
+            "desc": "Vendored gems for Rails applications. <em>Probably Obsolete</em>.",
+            "url": "http://github.com/nshah/script_gem/tree/master#readme"
         },
         "tempdir": {
             "hub": "tempdir",
-            "desc": "Tempfile like behaviour for directories."
+            "desc": "Tempfile like behaviour for directories.",
+            "url": "http://github.com/nshah/tempdir/tree/master#readme"
         },
         "grip": {
             "hub": "grip",
-            "desc": "Gem Rails Plugins. <em>Probably Obsolete</em>."
+            "desc": "Gem Rails Plugins. <em>Probably Obsolete</em>.",
+            "url": "http://github.com/nshah/grip/tree/master#readme"
         }
     },
     "erlang": {
