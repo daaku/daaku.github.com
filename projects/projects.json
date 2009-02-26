@@ -26,7 +26,8 @@
     "django": {
         "oauth-consumer": {
             "hub": "django-oauth-consumer",
-            "desc": "Django app for building OAuth enabled applications."
+            "desc": "Django app for building OAuth enabled applications.",
+            "url": "http://code.daaku.org/django-oauth-consumer/"
         },
         "blog-entries": {
             "hub": "django-blog-entries",
