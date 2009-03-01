@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url><loc>http://code.daaku.org/django-oauth-consumer/</loc></url>
+    <url><loc>http://code.daaku.org/python-make-request/</loc></url>
     <url><loc>http://code.daaku.org/python-oauth/</loc></url>
     <url><loc>http://code.daaku.org/python-urlencoding/</loc></url>
 </urlset>

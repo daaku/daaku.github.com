@@ -10,11 +10,11 @@
             "desc": "Python library for making form encoded HTTP requests."
         },
         "memoize": {
-            "hub": "memoize",
+            "hub": "python-memoize",
             "desc": "Python memoize descriptor."
         },
         "colorized-logger": {
-            "hub": "colorized_logger",
+            "hub": "python-colorized-logger",
             "desc": "Colorized debug logging."
         },
         "urlencoding": {
