@@ -39,6 +39,9 @@
     border: 1px solid #ac9;
     border-left: none;
     border-right: none;
+    overflow: hidden;
+}
+#document pre:hover {
     overflow: auto;
 }
 #document tt.descname {
